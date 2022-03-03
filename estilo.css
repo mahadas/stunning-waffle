@@ -1,0 +1,172 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.color1{
+    color: #82827e;
+}
+
+
+
+.textoarriba{
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+
+.logoarriba{
+    width: 3%;
+}
+
+.arriba{
+    position: absolute;
+    background-color: #e3052a;
+    color: #fff;
+    padding: 12px;
+    top: 0%;
+    overflow: hidden;
+    width: 100%;   
+}
+
+
+
+
+.boton{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    border: none;
+    background-color: #e3052a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.botonestilo{
+    border: none;
+    background-color: #e3052a;
+    color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+.container {
+  display: flex;
+  width: 1400px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 1400px;
+  height: 100%;
+}
+.card-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  min-height: 150px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+@media (max-width: 550px) {
+  .card {
+    width: 400px;
+  }
+
+
+@media (max-width: 550px) {
+  .card {
+    width: 400px;
+    top: 30px;
+  }
+
+
+.arriba{
+	    position: absolute;
+	    background-color: #e3052a;
+	    color: #fff;
+	    padding: 20px;
+	    top: 0%;
+	    overflow: hidden;
+	    width: 100%;   
+	}
+
+	.logoarriba{
+	    width: 8%;
+	}
+
+
+
+}
